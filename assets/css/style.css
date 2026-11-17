@@ -365,7 +365,17 @@ svg { width: 1em; height: 1em; flex-shrink: 0; }
   backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   box-shadow: var(--shadow-deep);
 }
-.chip-float--a { top: 8%; left: -8%; font-size: .95rem; font-weight: 500; animation: float 6s ease-in-out infinite .5s; }
+.chip-float--a {
+  top: 6%; left: -6%; gap: .08em; justify-content: center;
+  min-width: 3.6rem; height: 3.1rem; padding: 0 .85rem; border-radius: 14px;
+  font-size: 1.25rem; font-weight: 600; line-height: 1; letter-spacing: 0;
+  border-color: rgba(var(--cyan-rgb), .35);
+  box-shadow: var(--shadow-deep), 0 0 18px rgba(var(--cyan-rgb), .18);
+  animation: float 6s ease-in-out infinite .5s;
+}
+.chip-float--a .text-cyan { text-shadow: 0 0 10px rgba(var(--cyan-rgb), .6); }
+.chip-float--a .text-magenta { text-shadow: 0 0 10px rgba(var(--magenta-rgb), .6); }
+.chip-code__slash { color: var(--text); opacity: .9; }
 .chip-float--b { bottom: 12%; right: -10%; animation: float 7s ease-in-out infinite 1.2s; }
 .chip-float--c { bottom: -4%; left: 4%; color: var(--muted); animation: float 8s ease-in-out infinite 2s; display: none; }
 
