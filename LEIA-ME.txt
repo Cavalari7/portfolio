@@ -1,9 +1,0 @@
-Portfólio — Igor Emanoel Cavalari da Silva
-
-index.html                    Site completo (HTML, CSS, JavaScript; foto, logo e capas dos projetos já embutidas).
-Curriculo-Igor-Cavalari.pdf   Currículo usado pelos botões Visualizar e Baixar (mantenha na mesma pasta do index.html).
-foto-igor.jpg                 Cópia da foto.
-
-Hospede a pasta inteira (GitHub Pages, Netlify, Vercel).
-Para editar fora do Claude, altere o bloco <script id="data" type="application/json"> do index.html.
-O painel "Editar portfólio" só funciona na versão publicada no Claude.
